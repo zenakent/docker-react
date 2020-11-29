@@ -15,7 +15,7 @@ deploy:
   #http://dockerreact-env.eba-nguzypww.us-east-2.elasticbeanstalk.com/
   region: "us-east-2"
   app: "docker-react"
-  env: "DockerReact-env-1"
+  env: "DockerReact-env"
   bucket_name: "elasticbeanstalk_us-east-2-159843824656"
   bucket_path: "docker-react"
   on:
