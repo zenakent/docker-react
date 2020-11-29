@@ -12,4 +12,4 @@ FROM nginx
 #does nothing on personal machine
 EXPOSE 80
 #--------------------#stuf     #copy the stuff to here
-COPY --from=builder /app/build /usr/share/nginx/html
+COPY --from=0 /app/build /usr/share/nginx/html
